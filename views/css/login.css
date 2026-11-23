@@ -1,0 +1,84 @@
+:root {
+    --ft-fundo: #bcd8dc;
+    --ft-card: #f3efe2;
+    --ft-azul: #2c4a6e;
+    --ft-dourado: #a07a2a;
+    --ft-dourado-escuro: #85651f;
+    --ft-linha: #d8c690;
+}
+
+body {
+    background-color: var(--ft-fundo);
+    font-family: 'Poppins', sans-serif;
+    color: var(--ft-azul);
+}
+
+.ft-titulo {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    color: var(--ft-dourado);
+    line-height: 1.25;
+}
+
+.ft-texto {
+    color: #1b1f5e;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    max-width: 340px;
+}
+
+.ft-subtitulo {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    color: var(--ft-dourado);
+    letter-spacing: 1px;
+}
+
+.ft-card {
+    background-color: var(--ft-card);
+    border: 2px solid #9fb8c9;
+    border-radius: 14px;
+    box-shadow: 0 6px 24px rgba(44, 74, 110, 0.25);
+}
+
+.ft-logo {
+    width: 130px;
+}
+
+.ft-linha {
+    border: 0;
+    border-top: 1px solid var(--ft-linha);
+    opacity: 1;
+}
+
+.btn-ft {
+    background-color: var(--ft-dourado);
+    border-color: var(--ft-dourado);
+    color: #fff;
+}
+
+.btn-ft:hover,
+.btn-ft:focus {
+    background-color: var(--ft-dourado-escuro);
+    border-color: var(--ft-dourado-escuro);
+    color: #fff;
+}
+
+.ft-ou {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 600;
+    color: var(--ft-azul);
+}
+
+.ft-ou::before,
+.ft-ou::after {
+    content: "";
+    flex: 1;
+    border-top: 1px solid var(--ft-linha);
+}
+
+.ft-card .form-control {
+    border-color: #a9b6d3;
+}
